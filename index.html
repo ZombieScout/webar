@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/WEB AR.loader.js"></script>
+    <script src="Build/webar.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,9 +73,9 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/WEB AR.data",
-                    frameworkUrl: "Build/WEB AR.framework.js",
-                    codeUrl: "Build/WEB AR.wasm",
+                    dataUrl: "Build/webar.data",
+                    frameworkUrl: "Build/webar.framework.js",
+                    codeUrl: "Build/webar.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "REALTAAUMENTATA",
